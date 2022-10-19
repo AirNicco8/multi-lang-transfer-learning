@@ -16,7 +16,7 @@ For the knowledge distillation process we referred to [this](https://towardsdata
 ### Downstream Tasks
 
 After the transfer learning phase we needed suitable tasks to evaluate the performance and/or adaptability of our student models. In particular we chose:
-* **Text Similarity:** this is the most straight forward task, since the model already give as output an embedding of a sentence and we can easily calculate any kind of distances between a number of sentence embeddings to estimate similarity. This kind of evaluation is done directly in the xxx notebook.
+* **Text Similarity:** this is the most straight forward task, since the model already give as output an embedding of a sentence and we can easily calculate any kind of distances between a number of sentence embeddings to estimate similarity. This kind of evaluation is done directly in the `Project_work.ipynb` notebook.
 Data sources divided for language:
     * <ins>ENG</ins>:
     * <ins>ITA</ins>:
