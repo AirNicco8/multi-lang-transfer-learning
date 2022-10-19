@@ -11,7 +11,7 @@ Both links will redirect to the model cards on the Hugging Face hub, there will 
 
 ### Transfer Learning
 
-For the knowledge distillation process we referred to [this](https://towardsdatascience.com/a-complete-guide-to-transfer-learning-from-english-to-other-languages-using-sentence-embeddings-8c427f8804a9) blog post. We used xxx as teacher and a base XLM-RoBERTa model as student. The process led to a multilingual sentence transformer which is able to encode sentences in English, Italian and German. Then we also trained a model only using german data to evaluate the performance differences between a multilingual and a monolingual setting.
+For the knowledge distillation process we referred to [this](https://towardsdatascience.com/a-complete-guide-to-transfer-learning-from-english-to-other-languages-using-sentence-embeddings-8c427f8804a9) blog post. We used paraphrase-distilroberta-base-v2 as teacher and a XLM-RoBERTa-base model as student. The process led to a multilingual sentence transformer which is able to encode sentences in English, Italian and German. Then we also trained a model only using german data to evaluate the performance differences between a multilingual and a monolingual setting.
  
 ### Downstream Tasks
 
