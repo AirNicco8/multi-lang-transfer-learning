@@ -21,12 +21,7 @@ Data sources divided for language:
     * <ins>ENG</ins>:
     * <ins>ITA</ins>:
     * <ins>GER</ins>:
-* **Natural Language Inference (NLI):** f
-Data sources divided for language:
-    * <ins>ENG</ins>:
-    * <ins>ITA</ins>:
-    * <ins>GER</ins>:
-* **Text Classification:** this is the most straight forward task, since the model already give as output an embedding of a sentence and we can easily calculate any kind of distances between a number of sentence embeddings to estimate similarity. This evaluation is done in the `SetFit_Classification.ipynb` notebook.
+* **Text Classification:** The sentence embeddings produced by our student model can be used to classify pieces of text. In particular we fine-tune and evaluate our model on differente tasks for each language. This evaluation is done in the `SetFit_Classification.ipynb` notebook.
 Data sources divided for language:
     * <ins>ENG</ins>: [SST2](https://github.com/clairett/pytorch-sentiment-classification)
     * <ins>ITA</ins>: [Sentipolc2016](http://www.di.unito.it/~tutreeb/sentipolc-evalita16/index.html)
