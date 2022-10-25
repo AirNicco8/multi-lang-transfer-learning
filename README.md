@@ -17,9 +17,7 @@ For the knowledge distillation process we referred to [this](https://towardsdata
 After the transfer learning phase we needed suitable tasks to evaluate the performance and/or adaptability of our student model. In particular we chose:
 * **Text Similarity:** this is the most straight forward task, since the model already give as output an embedding of a sentence and we can easily calculate any kind of distances between a number of sentence embeddings to estimate similarity. This kind of evaluation is done directly in the `Project_work.ipynb` notebook.
 Data sources divided for language:
-    * <ins>ENG</ins>:
-    * <ins>ITA</ins>:
-    * <ins>GER</ins>:
+    * <ins>ENG</ins>, <ins>ITA</ins>, <ins>GER</ins>: [STSb](https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark)
 * **Text Classification:** The sentence embeddings produced by our student model can be used to classify pieces of text. In particular we fine-tune and evaluate our model on differente tasks for each language. This evaluation is done in the `SetFit_Classification.ipynb` notebook. The process is taken from this [post](https://towardsdatascience.com/sentence-transformer-fine-tuning-setfit-outperforms-gpt-3-on-few-shot-text-classification-while-d9a3788f0b4e).
 Data sources divided for language:
     * <ins>ENG</ins>: [SST2](https://github.com/clairett/pytorch-sentiment-classification)
