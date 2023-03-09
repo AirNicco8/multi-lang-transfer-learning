@@ -1,4 +1,4 @@
-# Sentence Transformer transfrer learning and downstream task evaluation for multilingual model
+# Sentence Transformer transfer learning and downstream task evaluation for multilingual model
 *NLP_Unibo_Project_Work*
 
 ### What is it?
